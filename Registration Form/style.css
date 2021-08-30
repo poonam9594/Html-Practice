@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    align-content: center;
+    background-color:aqua;
+    width: 200px;
+    height: 200px;
+}

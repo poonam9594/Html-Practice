@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+    <h1> Dating Application</h1>
+    </div>
+    <div class="container">
+        <form method="POST">
+             <div class="frmelement">
+             <lable>Personal Details:- </lable> <br>
+            <lable>Name</lable> <input type="text" class="text_id"placeholder="Enter Your Name" Name="name" required><br>
+            <label> Email</label>
+            <input type="email" placeholder="Enter Your Email" class="text_id" name="email"required><br>
+            <label>Phone No.</label> 
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+            <small>Format: 123-456-7890</small><br>
+            <lable> Enter Your gender :-</lable> <br>
+            <input type="radio" id="gender" name="Male" Value="Male"> Male <br>
+            <input type="radio" id="gender" name="Female" Value="Female"> Female <br>
+            <lable>Date Of Proposed Outing</lable>
+            <input type="date"id="start" name="Outing-start"value="2021-08-22"><br>
+            <lable>Check all that apply to you :-</lable><br>
+            <input type="checkbox"name="tattoo"checked>I have tattoos and/or piercings <br>
+            <input type="checkbox"name="age">I am more than 2 years older than my daughter <br>
+            <input type="checkbox"name="van">I own a panel van or Ferrari <br>
+            <input type="checkbox"name="work">I work full-time <br>
+            <input type="checkbox"name="rich">My parents are rich <br>
+            <lable> Is the date at a private/public location </lable><br>
+            <input type="radio" id="private" name="private" Value="Private"> Private
+            <input type="radio" id="public" name="Public" Value="Public"> Public <br>
+            <input type="checkbox"name="edu"> Education level completed <br>
+            <label>Essay section:</label> <br>
+            <label>Why do you want to date my daughter</label><br>
+            <textarea class="textar" name="story"rows="5" cols="33">50 words input...
+            </textarea>   <br>
+            <lable>Please provide 1 contact point for your reference</lable>
+            <input type="tel" id="ref" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required> <br>
+            <label>Upload Your Bank Statemen</label>
+            <input type="file" id="docpicker" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"> <br>
+            <button>Submit  </button>
+
+
+            </div>
+         </form>
+         
+    </div>
+</body>
+</html>
